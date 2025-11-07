@@ -97,3 +97,53 @@ main {
   display: flex;
   gap: 15px;
 }
+        body {
+            background-image: url('portfolio-background.jpg'); 
+            background-size: cover;
+            background-color: aqua;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cv-section {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        .cv-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .personal-info {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 30px 0;
+        }
+
+        .personal-info li {
+            margin-bottom: 5px;
+        }
+
+
