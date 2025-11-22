@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 body {
     background-color: rgb(141, 102, 179);
@@ -29,4 +30,37 @@ form {
     color: white;
     padding: 12px 20px;
     border: none;
+=======
+
+body {
+    background-color: rgb(141, 102, 179);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+    h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #5c67f2; 
+    padding-bottom: 10px;
+}
+form {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 8px; 
+    width: 100%;
+    max-width: 500px; 
+}
+.btn{
+   background-color: #5c67f2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+>>>>>>> Stashed changes
     border-radius: 4px;}
