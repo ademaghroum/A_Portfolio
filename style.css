@@ -38,6 +38,10 @@ nav a {
   margin-left: 25px;
   font-weight: 500;
 }
+nav a:hover {
+    color: brown;
+    text-decoration: underline;
+}
 
 main {
   flex: 1;

@@ -1,4 +1,42 @@
- table {
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+  position: sticky;
+  top: 0;
+  
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo span {
+  font-weight: 400;
+  color: gray;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  margin-left: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+
+nav a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+table {
         width: 100%;
         
         font-family: Arial, sans-serif;
@@ -21,6 +59,14 @@
     tr:hover {
         background-color: #ddd;
     }
+ 
+    body {
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+    background-position: center;
+    background-color: burlywood;
+ }
 
     h2 {
         font-family: Arial, sans-serif;

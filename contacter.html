@@ -1,54 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact - Adem Aghroum</title>
     <link rel="stylesheet" href="contacter.css">
 </head>
 <body>
-    <h1> Contactez moi</h1>
-    <form action="" method="post">
-      <table>
-        <tr>
-            <td> <label for="prenom"> Prénom </label></td>
-            <td><input type="text" name="prenom" id="nom" placeholder="samuel"></td>
-        </tr>
-        <tr>
-            <td> <label for="nom"> Nom </label></td>
-            <td><input type="text" name="nom" id="nom" placeholder="asfaw"></td>
-        </tr>
-        <tr>
-            <td> <label for="email"> Email</label></td>
-            <td><input type="email" name="email" id="email" placeholder="adem.aghroum@gmail.com"></td>
-        </tr>
-        
-           <tr>
-            <td> <label for="objet"> Objet </label></td>
-            <td><input type="text" name="objet" id="objet"></td>
-        </tr>
-           <tr>
-            <td> <label for="tel"> Téléphone </label></td>
-            <td><input type="tel" name="tel" id="tel" placeholder="98484775"></td>
-        </tr>
-        <tr>
-            <td><label for="genre">Genre</label></td>
-            <td><input type="radio" name="a">Homme<input type="radio" name="a">Femme</td>
 
-        </tr>
-        <tr>
-            <td><label for="mesg">Message</label></td>
-            <td><textarea name="mesg" id="mesg" placeholder="ecrire un message"></textarea></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="Valider" class="btn"><input type="reset" value="Annuler" class="btn"></td>
-        </tr>
-        
-      </table>
+    <!-- HEADER / NAVBAR -->
+    <header>
+        <div class="logo">
+            <h1>Adem Aghroum <span>Développeur</span></h1>
+        </div>
+        <nav>
+            <a href="potfolio.html">Projets</a>
+            <a href="contacter.html">Contact</a>
+            <a href="avenir.html">Avenir</a>
+        </nav>
+    </header>
+
+    <!-- TITRE -->
+    <h1>Contactez-moi</h1>
+
+    <!-- FORMULAIRE -->
+    <form action="" method="post">
+        <label for="prenom">Prénom</label>
+        <input type="text" name="prenom" id="prenom" placeholder="Samuel" required>
+
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom" placeholder="Asfaw" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="adem.aghroum@gmail.com" required>
+
+        <label for="objet">Objet</label>
+        <input type="text" name="objet" id="objet">
+
+        <label for="tel">Téléphone</label>
+        <input type="tel" name="tel" id="tel" placeholder="98484775">
+
+        <label>Genre</label>
+        <div class="genre">
+            <input type="radio" name="genre" id="homme" value="Homme"><label for="homme">Homme</label>
+            <input type="radio" name="genre" id="femme" value="Femme"><label for="femme">Femme</label>
+        </div>
+
+        <label for="mesg">Message</label>
+        <textarea name="mesg" id="mesg" placeholder="Écrire un message..." required></textarea>
+
+        <div class="buttons">
+            <input type="submit" value="Valider" class="btn">
+            <input type="reset" value="Annuler" class="btn">
+        </div>
     </form>
 
-    
-    
 </body>
 </html>
